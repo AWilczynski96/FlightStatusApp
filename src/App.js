@@ -30,11 +30,7 @@ class NameForm extends React.Component {
       `https://aerodatabox.p.rapidapi.com/flights/number/${this.state.value}/${this.state.date}`,
       {
         method: "GET",
-        headers: {
-          "X-RapidAPI-Key":
-            "57fe8f8eb7msh82261eb4f369855p1fe5e5jsn4f53cd281531",
-          "X-RapidAPI-Host": "aerodatabox.p.rapidapi.com",
-        },
+        headers: process.env.REACT_APP_headers,
       }
     )
       .then((response) => response.json())
