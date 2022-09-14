@@ -89,6 +89,24 @@ class NameForm extends React.Component {
           {this.state.arrivalAirport} o godzinie{" "}
           {this.state.arrivalScheduledTimeLocal} `
         </p>
+        <p>
+          `Lot z {this.state.departureAirport} o godzinie lokalnej{" "}
+          {this.state.departureScheduledTimeLocal} do{" "}
+          {this.state.arrivalAirport} o godzinie{" "}
+          {this.state.arrivalScheduledTimeLocal} `
+        </p>
+        <p>
+          `Lot z {this.state.departureAirport} o godzinie lokalnej{" "}
+          {this.state.departureScheduledTimeLocal} do{" "}
+          {this.state.arrivalAirport} o godzinie{" "}
+          {this.state.arrivalScheduledTimeLocal} `
+        </p>
+        <p>
+          `Lot z {this.state.departureAirport} o godzinie lokalnej{" "}
+          {this.state.departureScheduledTimeLocal} do{" "}
+          {this.state.arrivalAirport} o godzinie{" "}
+          {this.state.arrivalScheduledTimeLocal} `
+        </p>
         <p>Linie lotnicze {this.state.airline}</p>
         <p>Model Samolotu {this.state.aircraft}</p>
         <input type="submit" value="Szukaj" />
